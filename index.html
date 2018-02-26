@@ -1,0 +1,29 @@
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" href="main.css">
+	  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+	  
+	  <title>The Chaos Game</title>
+	</head>
+
+	<style>
+		.canvas {
+			position: absolute;
+			border: 2px solid black;
+			margin-top: 10px;
+		}
+
+		body {
+			position: absolute;
+		}
+	</style>
+	
+	<body>
+		Repetitions:
+		<input type='integer' value='1000' id='iters'>
+		<button id='change_mode'>Start</button> <button id='clear_button' onclick='location.reload()'>Reset</button>
+	</body>
+	
+	<script language="javascript" type="text/javascript" src="chaos.js"></script>
+</html>
